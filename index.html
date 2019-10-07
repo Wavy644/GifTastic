@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sports Gif</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="sports-buttons">
+        <button class="btn btn-info sport" data-name="Football" style="margin: 5px;">Football</button>
+        <button class="btn btn-info sport" data-name="Basketball" style="margin: 5px;">Basketball</button>
+        <button class="btn btn-info sport" data-name="Baseball" style="margin: 5px;">Baseball</button>
+        <button class="btn btn-info sport" data-name="Hockey" style="margin: 5px;">Hockey</button>
+        <button class="btn btn-info sport" data-name="Tennis" style="margin: 5px;">Tennis</button>
+        <button class="btn btn-info sport" data-name="Golf" style="margin: 5px;">Golf</button>
+    </div>
+  </div>
+
+  <div id="gifs"></div>
+  <div>
+    <h3>Pick a Sport</h3>
+      <form id="gif-form">
+        <input type="text" id="gif-input" value="">
+        <input type="submit" name="button" class="btn btn-success" id="thebutton">
+      </form>
+  </div>
+  
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript" src="assets/javascript/gif.js"></script>
+      
+</body>
+</html>
